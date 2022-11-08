@@ -27,10 +27,10 @@ function NewMeetupPage() {
   return (
     <Fragment>
       <Head>
-        <title>Add a New Meetup</title>
+        <title>Add New Place</title>
         <meta
           name='description'
-          content='Add your own meetups and create amazing networking opportunities.'
+          content='Add a place you want to visit.'
         />
       </Head>
       <NewMeetupForm onAddMeetup={addMeetupHandler} />
